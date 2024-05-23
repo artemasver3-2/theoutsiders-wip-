@@ -29,7 +29,7 @@ margin-bottom:-1rem;
 `;
 
 
-export default class Home extends React.Component {
+export default class Footer extends React.Component {
   constructor(props) {
     super(props) 
     this.state = {

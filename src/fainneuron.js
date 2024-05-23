@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components'
-import AlexCard from './alexcard';
-import './alex.css';
+import FainneCard from './fainnecard';
+import './fainne.css';
 import Nav from './nav';
+
 
 const StyledHeader = styled.header`
 background-color: #000000;
@@ -11,13 +12,13 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-border-bottom: 2px solid #00492e;
+border-bottom: 2px solid #A71515;
 `;
 
 const StyledTitle = styled.h1`
 font-size: 4.5rem;
 font-family: Bebas Neue;
-color: #00492e;
+color: #A71515;
 text-decoration: none;
 letter-spacing: rem;
 margin-top: 1rem;
@@ -32,10 +33,11 @@ margin-top: -4.5rem;
 margin-left: 20rem;
 letter-spacing: 2px;
 `;
+
 const StyledFooter = styled.footer`
 background-color: #000000;
 min-height: 15vh;
-border-top: 2px solid #00492e;
+border-top: 2px solid #A71515;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -52,14 +54,14 @@ letter-spacing: 2px;
 const StyledFooterSpan2 = styled.span`
 font-size: 2rem;
 font-family: Pacifico;
-color: #00492e;
+color: #A71515;
 letter-spacing: 2px;
 margin-top: -12px;
 margin-bottom:-1rem;
 `;
 
 
-export default class AlexDrake extends React.Component {
+export default class FainneUron extends React.Component {
   constructor(props) {
     super(props) 
     this.state = {
@@ -68,31 +70,31 @@ export default class AlexDrake extends React.Component {
   }
   render() {
     return (
-        <div className='alex-page-div'>
+        <div className='fainne-page-div'>
       <StyledHeader>
         <StyledTitle>The Outsiders</StyledTitle>
         <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle>
         <Nav />
       </StyledHeader>
 
-       <div className='alex-body'>
-        <AlexCard 
-         title="Inside The Mind Of"
-         subtitle="Alex [REDACTED] Drake?"
+       <div className='fainne-body'>
+        <FainneCard 
+         title="Fainne Uron"
+         subtitle="strong, you know, like a tree"
          info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis. "
         />
 
-        <AlexCard 
-         title="The Leader Himself"
+        <FainneCard 
+         title="The Mighty Timberlands"
          subtitle="something something?"
          info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis. "
         />
        </div>
 
-       <div className='alex-body'>
-        <AlexCard 
-         title="Broody Boy"
-         subtitle="why so serious?"
+       <div className='fainne-body'>
+        <FainneCard 
+         title="Forest Gremlin"
+         subtitle="why so weird?"
          info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis. "
         />
        </div>

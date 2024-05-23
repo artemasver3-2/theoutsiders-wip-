@@ -1,8 +1,16 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
 import styled from 'styled-components'
+import Nav from "./nav";
 
-
+const StyledHeader = styled.header`
+background-color: #000000;
+min-height: 15vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-bottom: 2px solid #62AB37;
+`;
 
 const StyledTitle = styled.h1`
 font-size: 4.5rem;
@@ -26,13 +34,21 @@ letter-spacing: 2px;
 
 
 
-export default function Header() {
-  const path = useLocation().pathname;
-  const location = path.split("/")[1];
+
+export default class Header extends React.Component {
+  constructor(props) {
+    super(props) 
+    this.state = {
+
+    }
+  }
+  render() {
     return (
-      <Header className={"header " + location}>
-         <StyledTitle>The Outsiders</StyledTitle>
-         <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle>
-     </Header>
-  );
+      <StyledHeader><StyledTitle>The Outsiders</StyledTitle>
+      <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle> 
+      <Nav />
+      </StyledHeader>
+     
+    );
+  }
 }

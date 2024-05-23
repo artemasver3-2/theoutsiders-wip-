@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kristi&family=Lexend:wght@100..900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+
+
+.shinzo-page-div {
+background-image: url("https://static6.depositphotos.com/1043644/664/v/600/depositphotos_6642872-stock-illustration-graphic-texture-of-the-waves.jpg");
+background-size: 25%;
+}
+
+.shinzo-body {
+width: 85vw;
+height: 95%;
+border: solid 2px #011120;
+margin: 0 auto;
+margin-top: 1%;
+background-color: #9EC0E9;
+margin-bottom: 1rem;
+padding-top: 2%;
+border-radius: 5px;
+margin-bottom: 2rem;
+}

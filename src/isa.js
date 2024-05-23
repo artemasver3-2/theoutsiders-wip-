@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
-import AlexCard from './alexcard';
-import './alex.css';
+import IsaCard from './isacard';
+import './isa.css';
 import Nav from './nav';
 
 const StyledHeader = styled.header`
@@ -11,13 +11,13 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-border-bottom: 2px solid #00492e;
+border-bottom: 2px solid #670939;
 `;
 
 const StyledTitle = styled.h1`
 font-size: 4.5rem;
 font-family: Bebas Neue;
-color: #00492e;
+color: #521B38;
 text-decoration: none;
 letter-spacing: rem;
 margin-top: 1rem;
@@ -35,7 +35,7 @@ letter-spacing: 2px;
 const StyledFooter = styled.footer`
 background-color: #000000;
 min-height: 15vh;
-border-top: 2px solid #00492e;
+border-top: 2px solid #521B38;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -52,14 +52,14 @@ letter-spacing: 2px;
 const StyledFooterSpan2 = styled.span`
 font-size: 2rem;
 font-family: Pacifico;
-color: #00492e;
+color: #521B38;
 letter-spacing: 2px;
 margin-top: -12px;
 margin-bottom:-1rem;
 `;
 
 
-export default class AlexDrake extends React.Component {
+export default class Isa extends React.Component {
   constructor(props) {
     super(props) 
     this.state = {
@@ -68,31 +68,31 @@ export default class AlexDrake extends React.Component {
   }
   render() {
     return (
-        <div className='alex-page-div'>
+        <div className='isa-page-div'>
       <StyledHeader>
         <StyledTitle>The Outsiders</StyledTitle>
         <StyledSubtitle>Ebixia's most wanted heros</StyledSubtitle>
         <Nav />
       </StyledHeader>
 
-       <div className='alex-body'>
-        <AlexCard 
-         title="Inside The Mind Of"
-         subtitle="Alex [REDACTED] Drake?"
+       <div className='isa-body'>
+        <IsaCard 
+         title="Isa Tenju"
+         subtitle="empress, gunslinger, outsider."
          info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis. "
         />
 
-        <AlexCard 
-         title="The Leader Himself"
-         subtitle="something something?"
+        <IsaCard 
+         title="Loyalty, Royalty"
+         subtitle="what more could a girl aspire to achieve?"
          info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis. "
         />
        </div>
 
-       <div className='alex-body'>
-        <AlexCard 
-         title="Broody Boy"
-         subtitle="why so serious?"
+       <div className='isa-body'>
+        <IsaCard 
+         title="B i g &nbsp;&nbsp;B o o m"
+         subtitle="and with the steel chair, little boom!"
          info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Adipiscing at in tellus integer. Purus sit amet luctus venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Nunc mattis enim ut tellus elementum sagittis. Vulputate mi sit amet mauris commodo quis. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Nisi quis eleifend quam adipiscing vitae proin sagittis. "
         />
        </div>

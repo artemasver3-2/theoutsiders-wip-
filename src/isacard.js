@@ -17,22 +17,22 @@ color: white;
 font-size: 3rem;
 padding: 1%;
 font-family: Bebas Neue, sans-serif;
-letter-spacing: 2px;
+letter-spacing: 5px;
 margin-bottom: 1.75rem;
 text-align: center;
 `;
 
 const StyledSubtitleCard = styled.h4`
 color: white;
-  font-size: 2.5rem;
-  font-family: Kristi;
-  color: #62AB37;
-  height: 10%;
-  width: 55%;
-  margin-top: -3.75rem;
-  margin-left: 30rem;
-  text-align: center;
-  margin-bottom: 1rem;
+font-size: 2.5rem;
+font-family: Kristi;
+color: #521B38;
+height: 10%;
+width: 55%;
+margin-top: -3.75rem;
+margin-left: 27rem;
+text-align: center;
+margin-bottom: 1rem;
 `;
 
 const StyledCardInfo = styled.span`
@@ -43,7 +43,7 @@ font-family: Lexend, sans-serif;
 letter-spacing: 2px; 
 `;
 
-export default class Card extends React.Component {
+export default class IsaCard extends React.Component {
 constructor(props) {
     super(props);
     this.title = props.title;
@@ -52,11 +52,13 @@ constructor(props) {
       }
   render() {
     return (
-    <StyledCard> 
-        <StyledTitleCard>{this.props.title}</StyledTitleCard>
-        <StyledSubtitleCard>{this.props.subtitle}</StyledSubtitleCard>
-        <StyledCardInfo>{this.props.info}</StyledCardInfo>
-    </StyledCard>
+    <div>
+        <StyledCard> 
+            <StyledTitleCard>{this.props.title}</StyledTitleCard>
+            <StyledSubtitleCard>{this.props.subtitle}</StyledSubtitleCard>
+            <StyledCardInfo>{this.props.info}</StyledCardInfo>
+        </StyledCard>
+    </div>
     );
   }
 }

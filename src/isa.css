@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kristi&family=Lexend:wght@100..900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+
+
+.isa-page-div {
+background-image: url("https://i.postimg.cc/BngVkqMx/400337798-1030390304896888-2918608143978703467-n.png");
+background-size: 25%;
+}
+
+.isa-body {
+width: 85vw;
+height: 95%;
+border: solid 2px #781919;
+margin: 0 auto;
+margin-top: 1%;
+background-color: black;
+margin-bottom: 1rem;
+padding-top: 2%;
+border-radius: 5px;
+margin-bottom: 2rem;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kristi&family=Lexend:wght@100..900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+
+
+.alex-page-div {
+background-image: url("https://t3.ftcdn.net/jpg/03/03/91/46/360_F_303914630_yvjsy3J7Proeo2YuW4O6W31ZlynS1sFq.jpg");
+background-size: 25%;
+}
+
+.alex-body {
+width: 85vw;
+height: 95%;
+border: solid 2px #00492e;
+margin: 0 auto;
+margin-top: 1%;
+background-color: black;
+margin-bottom: 1rem;
+padding-top: 2%;
+border-radius: 5px;
+margin-bottom: 2rem;
+}

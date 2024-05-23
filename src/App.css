@@ -1,38 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kristi&family=Lexend:wght@100..900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+
+
 .App {
-  text-align: center;
+background-image: url("https://static.vecteezy.com/system/resources/previews/028/154/478/original/of-herringbone-pattern-abstract-seamless-background-line-art-brush-stroke-black-color-on-white-background-simple-line-drawing-design-element-for-backdrop-banner-printing-textile-fabric-vector.jpg");
+background-size: 25%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-div {
+width: 85vw;
+height: 95%;
+border: solid 2px #62AB37;
+margin: 0 auto;
+margin-top: 1%;
+background-color: black;
+margin-bottom: 1rem;
+padding-top: 2%;
+border-radius: 5px;
+margin-bottom: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

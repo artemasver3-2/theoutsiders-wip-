@@ -23,7 +23,6 @@ font-size: 4.5rem;
 font-family: Bebas Neue;
 color: #62ab37;
 text-decoration: none;
-letter-spacing: .2rem;
 margin-top: .5rem;
 
 @media only screen and (max-width : 460px)  {

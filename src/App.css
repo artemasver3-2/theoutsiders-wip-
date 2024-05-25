@@ -36,4 +36,8 @@ nav {
     margin-top: -15px;
     margin-bottom: -1rem;
   }
+  .main-div {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 };

@@ -47,7 +47,7 @@ margin-bottom: 1rem;
 
 @media only screen and (max-width : 460px)  {
   font-size: 1.5rem;
-  margin-left: 4.5rem;
+  margin-left: 4rem;
   margin-bottom: .5rem;
 };
 `;

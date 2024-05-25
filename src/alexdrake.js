@@ -24,7 +24,6 @@ font-size: 4.5rem;
 font-family: Bebas Neue;
 color: #00492e;
 text-decoration: none;
-letter-spacing: .2rem;
 margin-top: 1rem;
 
 @media only screen and (max-width : 460px)  {

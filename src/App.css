@@ -29,6 +29,9 @@ nav {
 }
 
 @media only screen and (max-width : 460px)  {
+  .App {
+    background-size: 50%;
+    }
   nav {
     margin-top: -15px;
     margin-bottom: -1rem;

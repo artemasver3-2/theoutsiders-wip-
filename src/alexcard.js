@@ -10,6 +10,10 @@ padding-bottom: 2%;
 text-align: justify;
 margin-top: -4rem;
 margin-bottom: 2rem;
+
+@media only screen and (max-width : 460px)  {
+  width: 85%;
+};
 `;
 
 const StyledTitleCard = styled.h3`
@@ -20,6 +24,12 @@ font-family: Bebas Neue, sans-serif;
 letter-spacing: 5px;
 margin-bottom: 1.75rem;
 text-align: center;
+
+@media only screen and (max-width : 460px)  {
+  font-size: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 2.75rem;
+};
 `;
 
 const StyledSubtitleCard = styled.h4`
@@ -33,6 +43,12 @@ margin-top: -3.75rem;
 margin-left: 27rem;
 text-align: center;
 margin-bottom: 1rem;
+
+@media only screen and (max-width : 460px)  {
+  font-size: 1.5rem;
+  margin-left: 4.5rem;
+  margin-bottom: .5rem;
+};
 `;
 
 const StyledCardInfo = styled.span`
@@ -41,6 +57,10 @@ font-size: 1rem;
 padding: 1rem;
 font-family: Lexend, sans-serif;
 letter-spacing: 2px; 
+
+@media only screen and (max-width : 460px)  {
+  font-size: .75rem;
+};
 `;
 
 export default class AlexCard extends React.Component {

@@ -10,6 +10,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+
+
 @media only screen and (max-width : 460px)  {
   text-align: center;
   min-height: 10vh;
@@ -25,6 +27,7 @@ letter-spacing: 2px;
 @media only screen and (max-width : 460px)  {
   font-size: 1rem;
   margin-bottom: .5rem;
+  margin-top: -2rem;
 };
 `;
 

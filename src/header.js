@@ -13,7 +13,7 @@ border-bottom: 2px solid #62AB37;
 
 
 @media only screen and (max-width : 460px)  {
-  min-height: 10vh;
+  min-height: 15vh;
   margin-bottom: .5rem;
 };
 `;
@@ -28,7 +28,6 @@ margin-top: .5rem;
 
 @media only screen and (max-width : 460px)  {
   font-size: 2rem;
-  margin-top: -1rem;
   margin-bottom: 3.75rem;
 };
 `;

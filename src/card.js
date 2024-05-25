@@ -11,7 +11,7 @@ text-align: justify;
 margin-top: -4rem;
 margin-bottom: 2rem;
 
-@media only screen and (max-width : 320px)  {
+@media only screen and (max-width : 460px)  {
   width: 80%;
 };
 `;
@@ -25,7 +25,7 @@ letter-spacing: 2px;
 margin-bottom: 1.75rem;
 text-align: center;
 
-@media only screen and (max-width : 320px)  {
+@media only screen and (max-width : 460px)  {
   font-size: 1.5rem;
   margin-top: 4rem;
   margin-bottom: 3.5rem;
@@ -44,7 +44,7 @@ margin-left: 30rem;
 text-align: center;
 margin-bottom: 1rem;
 
-@media only screen and (max-width : 320px)  {
+@media only screen and (max-width : 460px)  {
   margin-left: .5rem;
   font-size: 1.5rem;
   width: 95%;
@@ -59,7 +59,7 @@ padding: 1rem;
 font-family: Lexend, sans-serif;
 letter-spacing: 2px; 
 
-@media only screen and (max-width : 320px)  {
+@media only screen and (max-width : 460px)  {
   font-size: .75rem;
 };
 `;

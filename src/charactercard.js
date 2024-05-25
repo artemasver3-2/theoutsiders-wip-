@@ -16,7 +16,7 @@ align-items: center;
 justify-content: center;
 text-align: justify;
 
-@media only screen and (max-width : 320px)  {
+@media only screen and (max-width : 460px)  {
   width: 85%;
   
 };
@@ -30,7 +30,7 @@ letter-spacing: .5rem;
 margin-top: -1px;
 margin-bottom: 1rem;
 
-@media only screen and (max-width : 320px)  {
+@media only screen and (max-width : 460px)  {
   font-size: 1.5rem;
   padding: 2px;
   text-align: center;
@@ -43,7 +43,7 @@ text-align: justify;
 margin: 0 auto;
 padding-bottom: .5rem;
 
-@media only screen and (max-width : 320px)  {
+@media only screen and (max-width : 460px)  {
   width: 85%;
 };
 `;
@@ -55,7 +55,7 @@ padding: 1rem;
 font-family: Lexend, sans-serif;
 letter-spacing: 2px; 
 
-@media only screen and (max-width : 320px)  {
+@media only screen and (max-width : 460px)  {
   font-size: .75rem;
   letter-spacing: 1px;
 };
@@ -68,7 +68,7 @@ font-size: 1.5rem;
 letter-spacing: .15rem;
 text-decoration: none;
 
-@media only screen and (max-width : 320px)  {
+@media only screen and (max-width : 460px)  {
   font-size: 1rem;
   padding: 2px;
   text-align: center;

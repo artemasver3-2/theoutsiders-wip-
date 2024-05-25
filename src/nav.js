@@ -9,7 +9,7 @@ font-size: 1.5rem;
 letter-spacing: .15rem;
 text-decoration: none;
 
-@media only screen and (max-width : 320px)  {
+@media only screen and (max-width : 460px)  {
   font-size: 1rem;
 };
 `;

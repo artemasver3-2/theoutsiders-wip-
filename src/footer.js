@@ -27,7 +27,7 @@ letter-spacing: 2px;
 @media only screen and (max-width : 460px)  {
   font-size: 1rem;
   margin-bottom: .5rem;
-  margin-top: -2rem;
+  margin-top: -1rem;
 };
 `;
 

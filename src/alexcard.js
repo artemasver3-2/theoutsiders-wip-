@@ -13,6 +13,7 @@ margin-bottom: 2rem;
 
 @media only screen and (max-width : 460px)  {
   width: 80%;
+  padding-bottom: 1rem;
 };
 `;
 
@@ -26,9 +27,9 @@ margin-bottom: 1.75rem;
 text-align: center;
 
 @media only screen and (max-width : 460px)  {
-  font-size: 1.75rem;
-  margin-top: 4rem;
-  margin-bottom: 2.75rem;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 };
 `;
 

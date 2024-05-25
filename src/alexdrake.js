@@ -14,9 +14,8 @@ justify-content: center;
 border-bottom: 2px solid #00492e;
 
 @media only screen and (max-width : 460px)  {
-  min-height: 10vh;
+  min-height: 15vh;
   margin-bottom: .5rem;
-  margin-top: -.5rem;
 };
 `;
 
@@ -25,12 +24,13 @@ font-size: 4.5rem;
 font-family: Bebas Neue;
 color: #00492e;
 text-decoration: none;
-letter-spacing: rem;
+letter-spacing: .2rem;
 margin-top: 1rem;
 
 @media only screen and (max-width : 460px)  {
   font-size: 2.5rem;
   margin-bottom: 3.75rem;
+  margin-top: 2px;
 };
 `;
 
@@ -58,6 +58,7 @@ align-items: center;
 justify-content: center;
 
 @media only screen and (max-width : 460px)  {
+  text-align: center;
   min-height: 10vh;
  };
 `;
@@ -69,9 +70,9 @@ color: white;
 letter-spacing: 2px;
 
 @media only screen and (max-width : 460px)  {
- font-size: 1rem;
- margin-top: -1rem;
- margin-bottom: .4rem;
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  margin-top: -1rem;
 };
 `;
 

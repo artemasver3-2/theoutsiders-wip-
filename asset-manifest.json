@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/theoutsiders-wip-/static/css/main.53cce8b2.css",
-    "main.js": "/theoutsiders-wip-/static/js/main.4cb7203a.js",
+    "main.css": "/theoutsiders-wip-/static/css/main.8fd9a16b.css",
+    "main.js": "/theoutsiders-wip-/static/js/main.39450c02.js",
     "index.html": "/theoutsiders-wip-/index.html",
-    "main.53cce8b2.css.map": "/theoutsiders-wip-/static/css/main.53cce8b2.css.map",
-    "main.4cb7203a.js.map": "/theoutsiders-wip-/static/js/main.4cb7203a.js.map"
+    "main.8fd9a16b.css.map": "/theoutsiders-wip-/static/css/main.8fd9a16b.css.map",
+    "main.39450c02.js.map": "/theoutsiders-wip-/static/js/main.39450c02.js.map"
   },
   "entrypoints": [
-    "static/css/main.53cce8b2.css",
-    "static/js/main.4cb7203a.js"
+    "static/css/main.8fd9a16b.css",
+    "static/js/main.39450c02.js"
   ]
 }

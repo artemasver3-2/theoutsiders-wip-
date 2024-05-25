@@ -9,7 +9,7 @@ background-size: 25%;
 .isa-body {
 width: 85vw;
 height: 100%;
-border: solid 2px #781919;
+border: solid 2px #C76BBE;
 margin: 0 auto;
 margin-top: 1%;
 background-color: black;
@@ -18,3 +18,17 @@ padding-top: 2%;
 border-radius: 5px;
 margin-bottom: 2rem;
 }
+
+@media only screen and (max-width : 460px)  {
+    .isa-page-div {
+        background-size: 55%;
+        background-image: url("https://i.postimg.cc/BngVkqMx/400337798-1030390304896888-2918608143978703467-n.png");
+    }
+    nav {
+        padding-bottom: 1rem;
+    }
+    .isa-body {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+  };

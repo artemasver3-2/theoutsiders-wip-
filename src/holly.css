@@ -18,3 +18,17 @@ padding-top: 2%;
 border-radius: 5px;
 margin-bottom: 2rem;
 }
+
+@media only screen and (max-width : 460px)  {
+    .holly-page-div {
+        background-size: 75%;
+        background-image: url("https://st2.depositphotos.com/6025596/9352/v/600/depositphotos_93523038-stock-illustration-seamless-de-lis.jpg");
+    }
+    nav {
+        padding-bottom: 1rem;
+    }
+    .holly-body {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+  };

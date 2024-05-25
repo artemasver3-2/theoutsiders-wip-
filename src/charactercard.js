@@ -18,7 +18,9 @@ text-align: justify;
 
 @media only screen and (max-width : 460px)  {
   width: 85%;
-  
+  margin-bottom: 2.5rem;
+  margin-top: -1.5rem;
+  border-radius: 10px;
 };
 `;
 

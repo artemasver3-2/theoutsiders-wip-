@@ -12,6 +12,11 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #8a5c24;
+
+@media only screen and (max-width : 460px)  {
+  min-height: 15vh;
+  margin-bottom: .5rem;
+};
 `;
 
 const StyledTitle = styled.h1`
@@ -32,6 +37,12 @@ transition: 1s ease-in-out;
     -ms-transform: scale(-1, 1);
     transform: scale(-1, 1);
 }
+
+@media only screen and (max-width : 460px)  {
+  font-size: 2.5rem;
+  margin-bottom: 3.75rem;
+  margin-top: 2px;
+};
 `;
 
 const StyledSubtitle = styled.h2`
@@ -42,7 +53,14 @@ color: white;
 margin-top: -4.5rem;
 margin-left: 20rem;
 letter-spacing: 2px;
+
+@media only screen and (max-width : 460px)  {
+  font-size: 1.25rem;
+  margin-left: 4rem;
+};
 `;
+
+
 const StyledFooter = styled.footer`
 background-color: #000000;
 min-height: 15vh;
@@ -51,6 +69,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+
+@media only screen and (max-width : 460px)  {
+  text-align: center;
+  min-height: 10vh;
+ };
 `;
 
 const StyledFooterSpan1 = styled.span`
@@ -58,6 +81,12 @@ font-size: 1.75rem;
 font-family: Bebas Neue;
 color: white;
 letter-spacing: 2px;
+
+@media only screen and (max-width : 460px)  {
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  margin-top: -1rem;
+};
 `;
 
 const StyledFooterSpan2 = styled.span`
@@ -67,6 +96,10 @@ color: #8a5c24;
 letter-spacing: 2px;
 margin-top: -12px;
 margin-bottom:-1rem;
+
+@media only screen and (max-width : 460px)  {
+  font-size: 1rem;
+ };
 `;
 
 

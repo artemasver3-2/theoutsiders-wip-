@@ -47,6 +47,7 @@ letter-spacing: 2px;
   margin-left: 4rem;
 };
 `;
+
 const StyledFooter = styled.footer`
 background-color: #000000;
 min-height: 15vh;

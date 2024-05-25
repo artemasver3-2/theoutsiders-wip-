@@ -18,3 +18,17 @@ padding-top: 2%;
 border-radius: 5px;
 margin-bottom: 2rem;
 }
+
+@media only screen and (max-width : 460px)  {
+    .geddy-page-div {
+        background-size: 55%;
+        background-image: url("https://static.vecteezy.com/system/resources/previews/028/237/972/original/brown-and-gold-damask-seamless-vintage-pattern-elegant-design-in-royal-baroque-style-background-texture-floral-and-swirl-element-brown-colors-ideal-for-textile-print-and-wallpapers-vector.jpg");
+    }
+    nav {
+        padding-bottom: 1rem;
+    }
+    .geddy-body {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+  };

@@ -18,3 +18,17 @@ padding-top: 2%;
 border-radius: 5px;
 margin-bottom: 2rem;
 }
+
+@media only screen and (max-width : 460px)  {
+    .fainne-page-div {
+        background-size: 55%;
+        background-image: url("https://png.pngtree.com/png-clipart/20230926/original/pngtree-bronzeoutlined-black-leaves-and-whitered-roses-in-a-repeating-floral-pattern-png-image_12879900.png");
+    }
+    nav {
+        padding-bottom: 1rem;
+    }
+    .fainne-body {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+  };

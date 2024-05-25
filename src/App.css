@@ -25,4 +25,12 @@ margin-bottom: 2rem;
 nav {
     margin-top: -1.5rem;
     margin-bottom: .5rem;
+    
 }
+
+@media only screen and (max-width : 320px)  {
+  nav {
+    margin-top: -15px;
+    margin-bottom: -1rem;
+  }
+};

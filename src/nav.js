@@ -8,6 +8,10 @@ font-family: Saira Extra Condensed, sans-serif;
 font-size: 1.5rem;
 letter-spacing: .15rem;
 text-decoration: none;
+
+@media only screen and (max-width : 320px)  {
+  font-size: 1rem;
+};
 `;
 
 export default class Nav extends React.Component {

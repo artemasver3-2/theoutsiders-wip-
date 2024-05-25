@@ -10,6 +10,12 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 2px solid #62AB37;
+
+
+@media only screen and (max-width : 320px)  {
+  min-height: 10vh;
+  margin-bottom: .5rem;
+};
 `;
 
 const StyledTitle = styled.h1`
@@ -19,6 +25,12 @@ color: #62ab37;
 text-decoration: none;
 letter-spacing: .2rem;
 margin-top: .5rem;
+
+@media only screen and (max-width : 320px)  {
+  font-size: 2rem;
+  margin-top: -1rem;
+  margin-bottom: 3.75rem;
+};
 `;
 
 
@@ -30,6 +42,11 @@ color: white;
 margin-top: -4.5rem;
 margin-left: 20rem;
 letter-spacing: 2px;
+
+@media only screen and (max-width : 320px)  {
+  font-size: 1.25rem;
+  margin-left: 4rem;
+};
 `;
 
 

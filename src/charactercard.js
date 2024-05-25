@@ -15,6 +15,11 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align: justify;
+
+@media only screen and (max-width : 320px)  {
+  width: 85%;
+  
+};
 `;
 
 const StyledCharacterName = styled.h6`
@@ -24,6 +29,12 @@ color: white;
 letter-spacing: .5rem;
 margin-top: -1px;
 margin-bottom: 1rem;
+
+@media only screen and (max-width : 320px)  {
+  font-size: 1.5rem;
+  padding: 2px;
+  text-align: center;
+};
 `;
 
 const StyledCharacterSection = styled.section`
@@ -31,6 +42,10 @@ width: 85%;
 text-align: justify;
 margin: 0 auto;
 padding-bottom: .5rem;
+
+@media only screen and (max-width : 320px)  {
+  width: 85%;
+};
 `;
 
 const StyledCharacterSpan = styled.span`
@@ -39,6 +54,11 @@ font-size: 1rem;
 padding: 1rem;
 font-family: Lexend, sans-serif;
 letter-spacing: 2px; 
+
+@media only screen and (max-width : 320px)  {
+  font-size: .75rem;
+  letter-spacing: 1px;
+};
 `;
 
 const StyledCharacterLink = styled(Link)`
@@ -47,6 +67,12 @@ font-family: Saira Extra Condensed, sans-serif;
 font-size: 1.5rem;
 letter-spacing: .15rem;
 text-decoration: none;
+
+@media only screen and (max-width : 320px)  {
+  font-size: 1rem;
+  padding: 2px;
+  text-align: center;
+};
 `;
 
 

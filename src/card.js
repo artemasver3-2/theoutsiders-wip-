@@ -10,6 +10,10 @@ padding-bottom: 2%;
 text-align: justify;
 margin-top: -4rem;
 margin-bottom: 2rem;
+
+@media only screen and (max-width : 320px)  {
+  width: 80%;
+};
 `;
 
 const StyledTitleCard = styled.h3`
@@ -20,19 +24,32 @@ font-family: Bebas Neue, sans-serif;
 letter-spacing: 2px;
 margin-bottom: 1.75rem;
 text-align: center;
+
+@media only screen and (max-width : 320px)  {
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  margin-bottom: 3.5rem;
+};
 `;
 
 const StyledSubtitleCard = styled.h4`
 color: white;
-  font-size: 2.5rem;
-  font-family: Kristi;
-  color: #62AB37;
-  height: 10%;
-  width: 55%;
-  margin-top: -3.75rem;
-  margin-left: 30rem;
-  text-align: center;
-  margin-bottom: 1rem;
+font-size: 2.5rem;
+font-family: Kristi;
+color: #62AB37;
+height: 10%;
+width: 55%;
+margin-top: -3.75rem;
+margin-left: 30rem;
+text-align: center;
+margin-bottom: 1rem;
+
+@media only screen and (max-width : 320px)  {
+  margin-left: .5rem;
+  font-size: 1.5rem;
+  width: 95%;
+};
+
 `;
 
 const StyledCardInfo = styled.span`
@@ -41,6 +58,10 @@ font-size: 1rem;
 padding: 1rem;
 font-family: Lexend, sans-serif;
 letter-spacing: 2px; 
+
+@media only screen and (max-width : 320px)  {
+  font-size: .75rem;
+};
 `;
 
 export default class Card extends React.Component {

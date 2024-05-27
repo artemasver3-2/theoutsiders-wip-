@@ -24,13 +24,13 @@ class App extends React.Component {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/alexDrake" element={<AlexDrake />}/>
-        <Route path="/fainneUron" element={<FainneUron />}/>
-        <Route path="/shinzoKatetsu" element={<Shinzo />}/>
-        <Route path="/geddySplintwalker" element={<Geddy />}/>
-        <Route path="/hollyannaKnox" element={<Holly />}/>
-        <Route path="/isaTenju" element={<Isa />}/>
-        <Route path="/baelVolet" element={<Bael />}/>
+        <Route path="alexDrake" element={<AlexDrake />}/>
+        <Route path="fainneUron" element={<FainneUron />}/>
+        <Route path="shinzoKatetsu" element={<Shinzo />}/>
+        <Route path="geddySplintwalker" element={<Geddy />}/>
+        <Route path="hollyannaKnox" element={<Holly />}/>
+        <Route path="isaTenju" element={<Isa />}/>
+        <Route path="baelVolet" element={<Bael />}/>
       </Routes>
     </div>
   )};
